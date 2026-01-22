@@ -13,7 +13,7 @@ public class WebElementMethods {
 		driver.get("https://demoqa.com/");
 		//wait time for 2secs
 		Thread.sleep(2000);
-		
+		//
 		driver.findElement(By.xpath("//h5[text()='Elements']")).click();
 		Thread.sleep(3000);
 		System.out.println("complete");
